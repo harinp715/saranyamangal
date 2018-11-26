@@ -13,7 +13,7 @@
 
   &-logo {
     @extend .theme-font;
-    color: $theme-color-main-contrast;
+    color: #ff6347;
     cursor: pointer;
     opacity: 0;
     transition: opacity .5s;
@@ -37,12 +37,12 @@
       background: $theme-color-main-contrast;
 
       & > .nav-link {
-        color: $theme-color-main;
+        color: #ff6347;
       }
     }
 
     .nav-link {
-      color: $theme-color-main-contrast;
+      color: #ff6347;
 
       @include media-breakpoint-up(lg) {
         font-size: 1.5rem;
