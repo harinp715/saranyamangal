@@ -3,7 +3,7 @@
 .container-top {
   display: block;
   padding-top: 4rem;
-  background-color: #ff6347;
+  background-color: $theme-color-main;
   text-align: center;
   position: relative;
 
@@ -35,7 +35,7 @@
     @extend .theme-font;
     font-size: 2.5rem;
     padding-top: $spacer / 2;
-    color: darken(#ff6347, 50%);
+    color: darken($theme-color-main, 50%);
 
     @include media-breakpoint-up(lg) {
       padding-top: $spacer;
@@ -48,7 +48,7 @@
   &-headline {
     font-size: 1.5rem;
     margin: 1rem;
-    color: #ff6347;
+    color: $theme-color-main-contrast;
 
     @include media-breakpoint-up(lg) {
       font-size: 2rem;

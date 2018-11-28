@@ -7,13 +7,13 @@
     height: 5rem;
   }
 
-  background:#ff6347;
+  background: $theme-color-main;
 
   // Element: navbar-logo
 
   &-logo {
     @extend .theme-font;
-    color: #ff6347;
+    color: $theme-color-main-contrast;
     cursor: pointer;
     opacity: 0;
     transition: opacity .5s;
@@ -30,19 +30,19 @@
     padding-left: 1rem;
     padding-right: 1rem;
     border-radius: $border-radius-sm;
-    background-color: #ff6347;
+    background-color: $theme-color-main;
     transition: background-color 0.3s ease;
 
     &:hover {
       background: $theme-color-main-contrast;
 
       & > .nav-link {
-        color: #ff6347;
+        color: $theme-color-main;
       }
     }
 
     .nav-link {
-      color: #ff6347;
+      color: $theme-color-main-contrast;
 
       @include media-breakpoint-up(lg) {
         font-size: 1.5rem;

@@ -4,8 +4,8 @@
   margin-top: $spacer;
   padding-top: $spacer;
   min-height: $spacer * 15;
-  background: #ff6347;
-  color: darken(#ff6347, 50%);
+  background: $theme-color-main;
+  color: darken($theme-color-main, 50%);
 
   // Element: container-contacts-phone
   // Element: container-contacts-email
@@ -15,7 +15,7 @@
     font-size: 1.8rem;
     padding: $spacer;
     border-radius: $border-radius;
-    background-color: #ff6347;
+    background-color: $theme-color-main;
     transition: background-color 0.3s ease;
 
     @include media-breakpoint-up(md) {
@@ -23,16 +23,16 @@
     }
 
     &:hover {
-      background-color: #ff6347;
+      background-color: $theme-color-main-contrast;
 
       a {
-        color: darken(#ff6347, 50%);
+        color: darken($theme-color-main, 50%);
       }
     }
   }
 
   & a {
-    color: darken(#ff6347, 50%);
+    color: darken($theme-color-main, 50%);
     text-decoration: none;
   }
 }
