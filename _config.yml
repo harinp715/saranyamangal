@@ -1,6 +1,6 @@
 # Site settings
 # in the templates available like {{ site.myvariable }}.
-future: true;
+future: true
 title: Clean portfolio theme for Jekyll powered by Bootstrap 4.
 email: your-email@domain.com
 brand: Saranya B Mangal
@@ -18,7 +18,7 @@ markdown: kramdown
 snapwidget: 247552
 
 # Contacts
-email: harinp715@gmail.com
+email: vainika@saranyamangal.com
 phone: +91 8095488800
 
 # Tracking
